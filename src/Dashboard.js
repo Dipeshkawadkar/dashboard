@@ -21,9 +21,10 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 // import { mainListItems, secondaryListItems } from './listItems';
 // import Chart from './Chart';
 // import Deposits from './Deposits';
-import Orders from './Orders';
+import Orders from './datatable';
 import NestedList from "./a"
-
+import MatPaginationTable from './datatable'
+import Home from './bar'
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
@@ -178,13 +179,13 @@ export default function Dashboard() {
                         {/* Chart */}
                         <Grid item xs={12} md={12} lg={0}>
                             <Paper className={fixedHeightPaper}>
-                                {/* <Chart /> */}
+                                < Home/>
                             </Paper>
                         </Grid>
                   
                         <Grid item xs={12}>
                             <Paper className={classes.paper}>
-                                <Orders />
+                                <MatPaginationTable />
                             </Paper>
                         </Grid>
                     </Grid>
