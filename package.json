@@ -11,10 +11,14 @@
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
     "es6-promise": "^4.2.8",
+    "fomantic-ui": "^2.8.8-beta.31",
+    "formik": "^2.1.7",
+    "formik-material-ui": "^3.0.0",
     "isomorphic-fetch": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "yup": "^0.29.3"
   },
   "scripts": {
     "start": "react-scripts start",
