@@ -1,12 +1,12 @@
 import React from 'react';
-import Link from '@material-ui/core/Link';
+// import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Title from './Title';
+// import Title from './Title';
 import Paper from '@material-ui/core/Paper';
 import TableContainer from '@material-ui/core/TableContainer';
 import TablePagination from '@material-ui/core/TablePagination';
@@ -37,7 +37,7 @@ export default function MatPaginationTable() {
 
         const GetData = async () => {
 
-            const result = await axios('http://localhost:51760/Api/Emp/employee');
+            const result = await axios('http://dummy.restapiexample.com/api/v1/employees');
 
             setData(result.data);
 
